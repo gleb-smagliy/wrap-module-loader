@@ -28,7 +28,8 @@ deploy_script:
   - ps: |
       if ($ENV:CONFIGURATION -eq "publish")
       {
-        "//registry.npmjs.org/:_authToken=`$`{NPM_TOKEN`}" | Out-File (Join-Path $ENV:APPVEYOR_BUILD_FOLDER ".npmrc") -Encoding UTF8
+        "//registry.npmjs.org/:_authToken=`$`{NPM_TOKEN`}" | Out-File ".npmrc" -Encoding UTF8
+        Out-Host "//registry.npmjs.org/:_authToken=`$`{NPM_TOKEN`}"
         iex "npm pack"
         iex "npm publish"
       }
