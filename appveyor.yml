@@ -14,6 +14,8 @@ install:
 before_build:
   - node --version
   - npm --version
+  
+build: off
 
 cache:
   - node_modules -> package.json
