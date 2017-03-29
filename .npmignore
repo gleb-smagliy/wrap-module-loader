@@ -3,3 +3,4 @@
 /.git
 /.npmignore
 /npm-debug.log
+/*.tgz
