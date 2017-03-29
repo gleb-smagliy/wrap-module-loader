@@ -1,14 +1,21 @@
 {
   "name": "wrap-module-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "WrapModuleLoader.js",
-  "scripts": {
+  "scripts":
+  {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gleb Smagliy",
   "license": "MIT",
-  "dependencies": {
+  "dependencies":
+  {
     "webpack-sources": "^0.1.4"
+  },
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/gleb-smagliy/wrap-module-loader"
   }
 }
