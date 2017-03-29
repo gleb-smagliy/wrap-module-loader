@@ -4,3 +4,4 @@
 /.npmignore
 /npm-debug.log
 /*.tgz
+/node_modules
