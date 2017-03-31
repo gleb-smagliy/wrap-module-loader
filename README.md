@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/github/gleb-smagliy/wrap-module-loader?branch=master)]
+https://ci.appveyor.com/api/projects/status/github/gleb-smagliy/wrap-module-loader?branch=master
 
 ## wrap-module-loader
 
